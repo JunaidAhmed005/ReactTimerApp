@@ -24,7 +24,9 @@ module.exports = {
     	alias: {
 	      	Main: __dirname + "/app/components/Main.jsx",
           applicationStyles: __dirname + "/app/styles/app.scss",
-          Navigation: __dirname + "/app/components/Navigation.jsx"
+          Navigation: __dirname + "/app/components/Navigation.jsx",
+          Timer: __dirname + "/app/components/Timer.jsx",
+          Countdown: __dirname + "/app/components/Countdown.jsx"
     	},
     	extensions: ['.js', '.jsx']
   	},
